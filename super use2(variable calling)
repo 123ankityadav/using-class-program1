@@ -1,0 +1,33 @@
+class A
+{
+   int a=1;
+}
+
+class B extends A
+{
+   int a=2;
+   void avalue()
+   {
+   int a=3;
+   System.out.println("value of a is "+a+"");
+   System.out.println("value of a is"+this.a+"");
+   System.out.println("value of a is "+super.a+"");
+   }
+   
+   void a1value()
+   {
+   System.out.println("value of a is "+a);
+   }
+}
+
+class Super2
+{
+public static void main(String args[])
+{
+
+   B b=new B();
+   b.avalue();
+   b.a1value();
+
+}
+}
