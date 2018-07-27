@@ -1,0 +1,21 @@
+ class JoinSplit
+{
+public static void main(String args[])
+{
+    String str="as df gh jk l";
+	String str1[]=str.split("\\s");
+	
+	for(String str2:str1)
+	{
+	    System.out.print(str2+",");
+		
+	}
+	System.out.println();
+	
+	str=String.join("   ","as","df","gh","jk","l");
+	System.out.println(str);
+   
+
+
+}
+} 
