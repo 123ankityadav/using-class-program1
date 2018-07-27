@@ -1,0 +1,36 @@
+class A
+{
+    A(int x,int y)
+	{
+	this(x);
+	System.out.println("number 2called");
+	}
+	
+	A(int x,int y,int z,int a)
+	{
+	this(x,y,z);
+	System.out.println("number 4 called");
+	}
+	
+	A(int x)
+	{
+	System.out.println("number 1 called");
+	}
+	
+	A(int x,int y,int z)
+	{
+	this(x,y);
+	System.out.println("number 3 called");
+	}
+}
+
+class Cons
+{
+public static void main(String args[])
+{
+
+   A a=new A(1,2,3,4);
+   
+
+}
+}
