@@ -1,0 +1,35 @@
+class Extractstring
+{
+public static void main(String args[])
+{
+    String str="we will we will rock you";
+	System.out.println(str.charAt(6));
+	
+	System.out.println(str.substring(3));
+	 
+	char array[]=str.toCharArray();
+	for(char ch:array)
+	{
+	  System.out.print(ch+",");
+	}
+	
+	byte b[]=str.getBytes();
+	
+	for(byte b1:b)
+	{
+	  System.out.print(b1+",");
+	}
+	
+	System.out.println("----------------------------------");
+	
+	char tareget[]=new char[10];  //  errror 
+	str.getChars(5,15,target,10);
+	for(char t:target)
+	{
+	   System.out.print(t+"+");
+	}
+	
+
+
+}
+}
