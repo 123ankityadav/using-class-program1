@@ -1,0 +1,46 @@
+class A
+{
+   A()
+   {
+   System.out.println("constructor a is called");
+   }
+}
+
+class B extends A
+{
+   B()
+   {
+   System.out.println("constructor b is called");
+   }
+}
+
+class C extends B
+{
+    C()
+	{
+	System.out.println("constructor c is called");
+	}
+}
+
+class D extends C
+{
+    D()
+	{
+	System.out.println("constructor c is called");
+	}
+}
+
+class Supercall
+{
+     static
+	 {
+	 System.out.println("block called first");
+	 }
+public static void main(String args[])
+{
+     D d=new D();
+
+}
+}
+
+
