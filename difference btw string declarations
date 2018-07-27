@@ -1,0 +1,13 @@
+class Stringcom
+{
+public static void main(String args[])
+{
+   String s=new String("RAT");
+   String s1="RAT";
+   
+   System.out.println(s==s1);
+   System.out.println(s.equals(s1));
+
+
+}
+}
