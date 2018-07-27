@@ -1,0 +1,25 @@
+class String12
+{
+public static void main(String args[])
+{
+   String str="   asdfghjkl  asdfg  ";
+   int a=str.indexOf("sdf");
+   System.out.println(a);
+   
+   a=str.lastIndexOf("a");
+   System.out.println(a);
+   
+   String str1=str.replace("asdfgh","a1");
+   System.out.println(str1);
+   
+   System.out.println(str);
+   
+   str=str.trim();
+   System.out.println(str);
+   System.out.println(str);
+   
+   
+   
+
+}
+}
