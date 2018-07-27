@@ -1,0 +1,14 @@
+class Cases
+{
+public static void main(String args[])throws Exception
+{
+    String str="aaaaaaaaaaaaaaaaaa";
+	str=str.toUpperCase();
+	System.out.println(str);
+	str=str.toLowerCase();
+	System.out.println(str);
+	
+	System.out.println("give character");
+	char ch=(char)System.in.read();
+}
+}
