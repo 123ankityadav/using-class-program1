@@ -1,0 +1,58 @@
+class Thiss
+{
+   int a;
+   int b;
+   int c;
+   void num(int a,int b,int c)
+   {
+   this.a=a;
+   this.b=b;
+   this.c=c;
+   
+   }
+   
+   int sum()
+   {
+   return(a+b);
+   }
+   
+   int product()
+   {
+   return(a*b*c);
+   }
+}
+
+class Thisuse
+{
+public static void main(String args[])
+{
+   Thiss t=new Thiss();
+   t.num(10,20,10);
+   int a=t.sum();
+   System.out.println("the sum is "+a);
+   int b=t.product();
+   System.out.println("the sum is "+b);
+   
+   
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
