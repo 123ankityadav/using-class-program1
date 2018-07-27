@@ -1,0 +1,14 @@
+class String11
+{
+public static void main(String args[])
+{
+   String str=" ankit yadav ay";
+   boolean b=str.startsWith("ankit");
+   System.out.println(b);
+   
+   b=str.startsWith(" ");
+   System.out.println(b);
+   
+
+}
+}
